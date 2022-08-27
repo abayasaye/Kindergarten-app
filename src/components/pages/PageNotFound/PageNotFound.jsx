@@ -2,7 +2,7 @@ import "./PageNotFound.css";
 
 import useCounter from "../useCounter";
 function PageNotFound() {
-  const {counter,setCounter,counterUp, counterDown , counterReset}=useCounter(10)
+  const {counter,setCounter,counterUp, counterDown , counterReset}=useCounter(100)
   return (
     <div className="page-not-found">
       <h1>COUNTER</h1>
